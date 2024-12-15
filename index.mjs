@@ -7,7 +7,7 @@ const path = "./data.json";
 
 const isValiDate = (date) => {
     const startDate = moment("2019-01-01");
-    const endDate = moment("2019-01-01");
+    const endDate = moment("2024-01-01");
     return date.isBetween(startDate, endDate, null, "[]");
 };
 
